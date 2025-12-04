@@ -2,59 +2,67 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>ILOKANO-LEARNING</title>
+    <title>Teach Yourself Ilokano</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            max-width: 800px;
+            max-width: 900px;
             margin: auto;
-            padding: 20px;
-            line-height: 1.6;
+            padding: 40px;
+            text-align: center;
+            background-color: #f9f9f9;
+            color: #333;
         }
         h1 {
             color: #2c3e50;
-            text-align: center;
+            margin-bottom: 10px;
+        }
+        h2 {
+            color: #3498db;
+            margin-top: 0;
         }
         p {
+            font-size: 1.1em;
+            line-height: 1.6;
             margin-bottom: 20px;
-        }
-        embed {
-            width: 100%;
-            height: 800px;
-            border: 1px solid #ccc;
         }
         a.button {
             display: inline-block;
-            padding: 10px 20px;
-            margin-top: 10px;
+            padding: 15px 30px;
+            margin: 10px;
             background-color: #3498db;
             color: white;
             text-decoration: none;
-            border-radius: 5px;
+            font-weight: bold;
+            border-radius: 8px;
+            transition: background-color 0.3s ease;
         }
         a.button:hover {
             background-color: #2980b9;
         }
-        footer {
+        embed {
+            width: 100%;
+            height: 700px;
+            border: 1px solid #ccc;
             margin-top: 30px;
+        }
+        footer {
+            margin-top: 40px;
             font-size: 0.9em;
-            color: #555;
-            text-align: center;
+            color: #777;
         }
     </style>
 </head>
 <body>
-    <h1>ILOKANO-LEARNING</h1>
-    <p>
-        This material is published as a public service for those wishing to utilize Ilokano teaching material.
-    </p>
-    <p>
-        You can view the PDF below directly or scroll through it.
-    </p>
-    <embed src="ilokano-learning.pdf" type="application/pdf" />
-    <p>
-        <a class="button" href="ilokano-learning.pdf" target="_blank">Download PDF</a>
-    </p>
+    <h1>Teach Yourself Ilokano</h1>
+    <h2>Free Online Learning Material</h2>
+    <p>Welcome! This site provides Ilokano teaching materials for beginners and learners who want to study at their own pace. You can read the lessons online or download the PDF to keep.</p>
+    
+    <a class="button" href="ilokano-learning.pdf" target="_blank">Download PDF</a>
+    <a class="button" href="#pdf-view">View PDF Online</a>
+    
+    <embed id="pdf-view" src="ilokano-learning.pdf" type="application/pdf" />
+    
     <footer>
         This material is for personal and educational use only. Redistribution or commercial use without permission is prohibited.
     </footer>
